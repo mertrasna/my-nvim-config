@@ -50,5 +50,12 @@ vim.keymap.set("n", "<leader>d", ":Alpha<CR>", { desc = "Open Dashboard" })
 
 -- Open help file
 vim.keymap.set("n", "<leader>?", ":e ~/.config/nvim/help.md<CR>", { desc = "Open Keybindings Help" })
+-- Theme keymaps
+vim.keymap.set("n", "<leader>ts", function()
+	require("config.theme").theme_picker()
+end, { desc = "Select Theme" })
+vim.keymap.set("n", "<leader>tm", function()
+	require("config.theme").toggle_dark_light()
+end, { desc = "Toggle Dark/Light Mode" })
 
 return {}

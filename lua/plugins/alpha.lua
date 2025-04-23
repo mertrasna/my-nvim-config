@@ -33,6 +33,7 @@ return {
 				dashboard.button("h", "  Help & Keybindings", ":e ~/.config/nvim/help.md <CR>"),
 				dashboard.button("l", "󰒲  Lazy", ":Lazy<CR>"),
 				dashboard.button("q", "  Quit Neovim", ":qa<CR>"),
+				dashboard.button("t", "  Theme picker", ":lua require('config.theme').theme_picker()<CR>"),
 			}
 
 			-- Set footer
