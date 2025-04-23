@@ -13,13 +13,13 @@ My personal Neovim configuration optimized (hopefully) for frontend development.
 ## Installation
 
 1. Make sure to back up your existing Neovim configuration:
-   mv ~/.config/nvim ~/.config/nvim.bak
+   `mv ~/.config/nvim ~/.config/nvim.bak`
 
 2. Clone this repository:
-   git clone https://github.com/mertrasna/my-nvim-config.git ~/.config/nvim
+   `git clone https://github.com/mertrasna/my-nvim-config.git ~/.config/nvim`
 
 3. Start Neovim:
-   nvim
+   `nvim`
 
 4. Wait for plugins to install automatically
 
